@@ -41,4 +41,10 @@ body {
   text-align: right;
 }
 
+@media (max-width: 767px) {
+  #community {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=custom.css.map */

@@ -46,3 +46,9 @@ body {
   @extend .text-primary;
   text-align:right;
 }
+
+@media(max-width:767px){
+  #community{
+    display: none;
+  }
+}
