@@ -4,3 +4,30 @@ body {
   background-color: $bgd-color;
   text-align: justify;
 }
+
+#navigation {
+  position:fixed-top;
+  background-color: black;
+}
+
+#bibio {
+  text-align: center;
+  background-color: lightblue;
+  div {
+    article{
+      img{
+        width: 50%;
+      }
+    }
+  }
+}
+
+#community {
+  text-align: center;
+  background-color: lightyellow;
+}
+
+#market-data {
+  text-align: center;
+  background-color: gray;
+}
