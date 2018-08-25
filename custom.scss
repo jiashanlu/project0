@@ -1,13 +1,23 @@
 $bgd-color: hsl(0, 0%, 92%);
+.text-primary{color:#007bff!important}
+.text-secondary{color:#868e96!important}
 
 body {
   background-color: $bgd-color;
   text-align: justify;
+  @extend .text-secondary;
 }
 
 #navigation {
-  position:fixed-top;
+  position: top;
   background-color: black;
+  div{
+    div{
+      h1{
+        text-align: right;
+      }
+    }
+  }
 }
 
 #bibio {
@@ -29,5 +39,10 @@ body {
 
 #market-data {
   text-align: center;
-  background-color: gray;
+  background-color: lightgreen;
+}
+
+.special-text {
+  @extend .text-primary;
+  text-align:right;
 }

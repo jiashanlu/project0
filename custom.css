@@ -1,11 +1,22 @@
+.text-primary, .special-text {
+  color: #007bff !important;
+}
+
+.text-secondary, body {
+  color: #868e96 !important;
+}
+
 body {
   background-color: #ebebeb;
   text-align: justify;
 }
 
 #navigation {
-  position: fixed-top;
+  position: top;
   background-color: black;
+}
+#navigation div div h1 {
+  text-align: right;
 }
 
 #bibio {
@@ -23,7 +34,11 @@ body {
 
 #market-data {
   text-align: center;
-  background-color: gray;
+  background-color: lightgreen;
+}
+
+.special-text {
+  text-align: right;
 }
 
 /*# sourceMappingURL=custom.css.map */
